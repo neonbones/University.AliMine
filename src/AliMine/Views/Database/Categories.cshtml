@@ -1,0 +1,35 @@
+﻿@model IEnumerable<AliMine.Models.Category>
+@{
+    ViewData["Title"] = "Категории";
+}
+
+<div class="panel panel-primary">
+    <!-- Default panel contents -->
+    <div class="panel-heading"><span class="glyphicon glyphicon-link"></span> Категории</div>
+
+    <!-- Table -->
+    <table class="table">
+        <tr>
+            <th>#</th>
+            <th>Имя</th>
+            <th>Описание</th>
+            <th>Действия</th>
+        </tr>
+
+        @foreach (var category in Model)
+        {
+            <tr>
+                <td>@category.Id</td>
+                <td>@category.Name</td>
+                <td>@category.Description</td>
+                <td>
+                    <a asp-action="CategoryDetails" asp-controller="Database" asp-route-id="@category.Id"><span class="glyphicon glyphicon-eye-open"></span></a> |
+                    <a asp-action="EditCategory" asp-controller="Database" asp-route-id="@category.Id"><span class="glyphicon glyphicon-pencil"></span></a> |
+                    <a asp-action="DeleteCategory" asp-controller="Database" asp-route-id="@category.Id"><span class="glyphicon glyphicon-trash"></span></a>
+                </td>
+            </tr>
+        }
+    </table>
+</div>
+
+<a class="btn btn-primary btn-lg btn-block" href="~/Database/CreateCategory" role="button">Добавить Категорию</a>
