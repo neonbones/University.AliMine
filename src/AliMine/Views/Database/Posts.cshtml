@@ -23,7 +23,7 @@
             <tr>
                 <td>@post.Id</td>
                 <td>@post.Title</td>
-                <td>@post.Content</td>
+                <td>@post.Content.Substring(0,70)</td>
                 <td>@post.ImgAlias</td>
                 <td>@post.Category?.Name</td>
                 <td>

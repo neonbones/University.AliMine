@@ -1,0 +1,9 @@
+C:\Users\ASUSX555UB\Documents\Visual Studio 2015\Projects\AliMine\src\AliMine\bin\Debug\netcoreapp1.0\AliMine.deps.json
+C:\Users\ASUSX555UB\Documents\Visual Studio 2015\Projects\AliMine\src\AliMine\bin\Debug\netcoreapp1.0\AliMine.runtimeconfig.json
+C:\Users\ASUSX555UB\Documents\Visual Studio 2015\Projects\AliMine\src\AliMine\bin\Debug\netcoreapp1.0\AliMine.runtimeconfig.dev.json
+C:\Users\ASUSX555UB\Documents\Visual Studio 2015\Projects\AliMine\src\AliMine\bin\Debug\netcoreapp1.0\AliMine.dll
+C:\Users\ASUSX555UB\Documents\Visual Studio 2015\Projects\AliMine\src\AliMine\bin\Debug\netcoreapp1.0\AliMine.pdb
+C:\Users\ASUSX555UB\Documents\Visual Studio 2015\Projects\AliMine\src\AliMine\obj\Debug\netcoreapp1.0\AliMine.csprojResolveAssemblyReference.cache
+C:\Users\ASUSX555UB\Documents\Visual Studio 2015\Projects\AliMine\src\AliMine\obj\Debug\netcoreapp1.0\AliMine.AssemblyInfo.cs
+C:\Users\ASUSX555UB\Documents\Visual Studio 2015\Projects\AliMine\src\AliMine\obj\Debug\netcoreapp1.0\AliMine.dll
+C:\Users\ASUSX555UB\Documents\Visual Studio 2015\Projects\AliMine\src\AliMine\obj\Debug\netcoreapp1.0\AliMine.pdb

@@ -1,4 +1,30 @@
-﻿@{
+﻿@model IEnumerable<AliMine.Models.Post>
+@{
     ViewData["Title"] = "Домашняя страница";
 }
+<style>
+    .center {
+        text-align: center;
+    }
+</style>
 
+@foreach (var post in Model)
+{
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="col-md-9">
+            <div class="well">
+
+                <p><img src="@post.ImgAlias" alt="Image" class="img-rounded center-block img-responsive"></p>
+                <hr />
+                <h3 class="text-center">@post.Title</h3>
+                <hr />
+                <div class="center">
+                    <p><a href="@post.Content" class="btn btn-primary btn-lg  btn-block">Купить</a></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2"></div>
+    </div>
+}
+       
